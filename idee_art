@@ -1,0 +1,109 @@
+
+Principe de fonctionnement :
+Essayer de recolter les data d'un disques/ram => les transformers en matrice de racine(nbdonnée) 1 = noir, 0 = blanc, on lance un jdlv dedans
+
+medium = site web ou video ?
+Rapport avec le big data : l'énumeration des chaque bit d'un support
+
+Une tonne de données existent mais personne n'y est conscient 
+mais on y a pas forcement accès
+
+critique positive ?
+esthetisme ?
+armonie dans le chaos ? Prendre conscince de la vie a l'interieur din disque ?
+Les ordinateurs actuels de plus en plus de données
+big data précursive d'une forme de vie ?
+
+Construction d'une vie autonome, affective, intellectuelle et culturelle
+je voulais absolument une thématique autour de l'aléatoire
+
+Idée / Thèmes : 
+- Aléatoire
+- Jeu de le vie, Game of life
+- AI si possible
+- Disposition de la ram
+
+____________________________________________________________________________
+
+La vie d'un ordinateur, précurseur du big data ?
+
+medium = ste web ou video
+Rapport avec le big data = énumeration de chaque bit d'un support
+Critique du big data = Afficher l'armonie d'un support (RAM ?), prendre conscience de la vie à l'interieur d'un disque, les ordinateurs possèdent de plus en plus de données et de places, big data précursive d'une forme de vie ? + Esthetisme ?
+
+____________________________________________________________________________
+
+Problematique 1 : Vidéo ou site web ? 
+Si site web : les permissions du fichier que je veut utiliser est protégé en lecture par le user root ?
+Solution 1 : 
+Changer les permissions du folder pour que un user y ai acces MAIS pas de site web dans ce cas
+
+____________________________________________________________________________
+
+
+
+
+**
+
+Mail : 
+
+- qu'est ce que le projet critique du big data ?
+- - Le projet est une critique positive du big data. Afficher l'armonie du support (ram ici), donc prendre conscience de la vie à l'interieur du disque. Les ordinateurs possèdent de plus en plus de données et de puissance, finalement, le big data est t'il une forme précursive d'une forme de vie ?
+
+- en quoi consiste le projet
+- - L'objectif du projet est donc de pouvoir visualiser dans le temps l'état de la mémoire. Le medium sera probablement une video. Il est très compliqué (voir impossible pour le moment) d'accéder aux informations de memoire sur un site web. 
+
+- quels sont les choix techniques et esthétique que vous mettez en oeuvre ?
+- - J'aimerais "record" une video ou la mémoire change donc. Pour cela et pour des raisons de connaissance, je fais une premiere démonstration avec un serveur nodeJS. Pour les raisons esthetiques, je ne sais pas encore si une grande matrice est facilement visualisable. Le support video ne changera pas mais la maniere de présenter la matrice peut encore encore elle changer.
+
+- quels sont les alternantives auquel j'ai pensé ? Pourquoi ?
+- - Au début de projet, je me suis orienté sur le thème de l'aléatoire. J'aime ce thème car les résultats que je présenterais ne seront jamais les mêmes. Mon idée était donc faire un "jeu de la vie", selon mes rêgles, pour obtenir de l'aléatoire. 
+Je me suis aussi orienté sur l'IA, un thème que j'apprécie, cependant au nombre de personne choisissant ce thème, j'ai préferer l'écarter.
+
+- pourquoi la solution choisit est la meilleur ?
+- -Finalement, je me suis orienté sur un système presque similaire au 'jeu de la vie'. En effet, je reprends le principe de visualisation de cette dernière, une immense grille remplie de petites cases noires et blanches.
+
+- doutes...?
+
+- louisfrehring@proton.me
+
+Fin de projet : 
+30 avril : présentation orale + Documentation(titre, visuels et texte)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

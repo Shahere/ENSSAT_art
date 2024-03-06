@@ -1,0 +1,80 @@
+
+Principe de fonctionnement :
+Essayer de recolter les data d'un disques/ram => les transformers en matrice de racine(nbdonnée) 1 = noir, 0 = blanc, on lance un jdlv dedans
+
+medium = site web ou video ?
+Rapport avec le big data : l'énumeration des chaque bit d'un support
+
+Une tonne de données existent mais personne n'y est conscient 
+mais on y a pas forcement accès
+
+critique positive ?
+esthetisme ?
+armonie dans le chaos ? Prendre conscince de la vie a l'interieur din disque ?
+Les ordinateurs actuels de plus en plus de données
+big data précursive d'une forme de vie ?
+
+Construction d'une vie autonome, affective, intellectuelle et culturelle
+je voulais absolument une thématique autour de l'aléatoire
+
+Idée / Thèmes : 
+- Aléatoire
+- Jeu de le vie, Game of life
+- AI si possible
+- Disposition de la ram
+
+____________________________________________________________________________
+
+La vie d'un ordinateur, précurseur du big data ?
+
+medium = ste web ou video
+Rapport avec le big data = énumeration de chaque bit d'un support
+Critique du big data = Afficher l'armonie d'un support (RAM ?), prendre conscience de la vie à l'interieur d'un disque, les ordinateurs possèdent de plus en plus de données et de places, big data précursive d'une forme de vie ? + Esthetisme ?
+
+
+
+
+
+TECHNIQUE : 
+
+le fichier /dev/mem contient les informations de la memoire
+hexdump pour les avoir en hx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
