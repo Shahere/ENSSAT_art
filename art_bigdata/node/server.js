@@ -6,13 +6,27 @@ const app = express()
 const port = 3000
 
 app.get('/', async (req, res) => {
+  let binaryNumber = [];
   getMemData().then((data) => {
-    console.log(data)
-    let result = '<table>';
-    for (let i = 0; i < data; i++) {
+    let nbData = data.length;
+    for (let i = 0; i < nbData; i++) {
+      let binaryElement = hex2bin(data[i]).toString().split('')
+      binaryElement.forEach(element => {
+        binaryNumber.push(element)
+      });
+    }
+    console.log(binaryNumber)
+    console.log(binaryNumber.length)
+    let largeur = Math.floor(Math.sqrt(binaryNumber.length))
+    let result = '<table cellspacing=0 style="height: 100%, width: 100%">';
+    for (let i = 0; i < largeur; i++) {
       result+='<tr>'
-      for (let i = 0; i < data; i++) {
-        result+='<td>1</td>'
+      for (let j = 0; j < largeur; j++) {
+        if(binaryNumber[i+j] == 1) {
+          result+='<td bgcolor=#000></td>'
+        } else {
+          result+='<td bgcolor=#FFF></td>'
+        }
       }
       result+='</tr>'
     }
@@ -28,29 +42,26 @@ app.listen(port, () => {
 async function getMemData() {
   return new Promise((resolve, reject) => {
     let nbdata = 0
+    let data = null;
+    let betterData = [];
     exec('sudo hexdump /dev/mem', (err, stdout, stderr) => {
       if (err) {
-        //some err occurred
         console.error(err)
       } else {
-        // the *entire* stdout and stderr (buffered)
-        //console.log(stdout);
-        let data = stdout.split(' ')
+        data = stdout.split(' ')
         let bin = null;
         for (let i = 0; i < data.length; i++) {
           if ((i + 1) % 8 != 1) {
             nbdata = nbdata + 1
+            betterData.push(data[i])
             //console.log(data[i])
             //bin=hex2bin(data[i])
             //console.log(bin)
           }
         }
       }
-      let nbBin = nbdata * 8
-      console.log(nbBin)
-      let nbCol = String(Math.sqrt(nbBin)).split('.')[0]
-      console.log(nbCol)
-      resolve(nbCol)
+      //console.log(betterData)
+      resolve(betterData)
     });
   });
 }
