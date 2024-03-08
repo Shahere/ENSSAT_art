@@ -1,5 +1,4 @@
 const express = require('express')
-const fs = require('fs');
 const { exec } = require('child_process');
 
 const app = express()
@@ -15,10 +14,9 @@ app.get('/', async (req, res) => {
         binaryNumber.push(element)
       });
     }
-    console.log(binaryNumber)
-    console.log(binaryNumber.length)
     let largeur = Math.floor(Math.sqrt(binaryNumber.length))
-    let result = '<table cellspacing=0 style="height: 100%, width: 100%">';
+    console.log(largeur)
+    /*let result = '<table cellspacing=0 style="height: 100%, width: 100%">';
     for (let i = 0; i < largeur; i++) {
       result+='<tr>'
       for (let j = 0; j < largeur; j++) {
@@ -31,7 +29,18 @@ app.get('/', async (req, res) => {
       result+='</tr>'
     }
     result += '</table>';
-    res.send(result)
+    res.send(result)*/
+    /*let result = '<canvas>';
+    for (let i = 0; i < largeur; i++) {
+      for (let j = 0; j < largeur; j++) {
+        ctx.beginPath();
+        ctx.rect(i, j, 1, 1);
+        ctx.stroke();
+      }
+    }
+    result += '<canvas>';
+    res.send(result)*/
+
   });
 })
 
