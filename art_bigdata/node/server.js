@@ -16,7 +16,7 @@ app.get('/', async (req, res) => {
     }
     let largeur = Math.floor(Math.sqrt(binaryNumber.length))
     console.log(largeur)
-    /*let result = '<table cellspacing=0 style="height: 100%, width: 100%">';
+    let result = '<table cellspacing=0 style="height: 100%, width: 100%">';
     for (let i = 0; i < largeur; i++) {
       result+='<tr>'
       for (let j = 0; j < largeur; j++) {
@@ -29,7 +29,7 @@ app.get('/', async (req, res) => {
       result+='</tr>'
     }
     result += '</table>';
-    res.send(result)*/
+    res.send(result)
     /*let result = '<canvas>';
     for (let i = 0; i < largeur; i++) {
       for (let j = 0; j < largeur; j++) {
